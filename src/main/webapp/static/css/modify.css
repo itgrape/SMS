@@ -1,0 +1,62 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(81, 133, 85, 0.34);
+}
+
+h1{
+    padding-top: 60px;
+    text-align: center;
+    font-family: "黑体", serif;
+}
+
+.show {
+    position: relative;
+    background-color: #7199fc;
+    width: 570px;
+    height: 570px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 60px;
+}
+
+table{
+    font-size: 20px;
+}
+
+tr{
+    height: 60px;
+}
+
+td{
+    width: 140px;
+}
+
+td input{
+    width: 120px;
+    height: 30px;
+}
+
+.sex input{
+    width: 20px;
+    height: 20px;
+}
+
+.submit{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -30px;
+    width: 80px;
+    height: 50px;
+}
